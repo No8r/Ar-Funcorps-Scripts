@@ -1,3 +1,5 @@
+-- Code By Omaraldin#1619
+
 local map = [[<C><P DS="m;552,367,69,365,235,367,690,365,407,365" Ca="" MEDATA=";;;;-0;0:::1-"/><Z><S><S T="0" X="0" Y="2" L="10" H="10" P="0,0,0.3,0.2,0,0,0,0" i="5,5,1754b78dd31.png"/><S T="14" X="402" Y="416" L="805" H="68" P="0,0,1,0,0,0,0,0"/><S T="14" X="-29" Y="217" L="55" H="472" P="0,0,0,0.2,0,0,0,0"/><S T="14" X="827" Y="219" L="55" H="472" P="0,0,0,0.2,0,0,0,0"/></S><D/><O/><L/></Z></C>]]
 local admins = {
     'Omaraldin#1619', 'Massi#0020',
@@ -5,7 +7,7 @@ local admins = {
     'Lalajb#0000', 'Ragekitteee#0015',
     'Kiwi_is_here#0558'
 }
-local winners = {"Makenone#6546", "Anfofhj#0000", "Noumy#4714", "Crawen#1820", "Buu#1879", "Gentle12#7079", "Sisley#4238", "Millionaires#0928", "Alea1234#0000"}
+local winners = {}
 local rolled = false
 local rollLoopId = 0
 
