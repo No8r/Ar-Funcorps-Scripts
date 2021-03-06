@@ -1,3 +1,10 @@
+--
+-- Forest Festeval Countdown v1
+-- 2020/10/19
+
+-- For Transformice
+-- By Noooooooorr#0000
+
 local TFM = tfm.exec
 local cat = {}
 local player = {}
@@ -6,7 +13,7 @@ local time = {min=5,sec=0,halfsec=1}
 local countdown = true
 local hellomessage = "!مرحبًا بك في غرفة فعالية الغابة \n  .ثوانٍ <b><n>"..time.sec.."</n></b> دقائق و <b><n>"..time.min.."</n></b> ستبدأ الفعالية بعد"
 local game = {
-    name = "Escape Cats",
+    name = "Forest Festeval!",
     names = {},
     admins = {["Ragekitteee#0015"] = true,["Noooooooorr#0000"] = true,["Kiwi_is_here#0558"] = true,["Uvfn#0000"] = true,["Lalajb#0000"] = true,["Omaraldin#1619"] = true,["Massi#0010"] = true},
     xml = '<C><P L="1000" Ca="" MEDATA="9,1;;;;-0;0:::1-"/><Z><S><S T="0" X="5" Y="5" L="10" H="10" P="0,0,0.3,0.2,0,0,0,0" i="0,0,1755054c73a.png"/><S T="0" X="5" Y="5" L="10" H="10" P="0,0,0.3,0.2,0,0,0,0" N="" i="0,0,17550554527.png"/><S T="14" X="500" Y="405" L="1005" H="63" P="0,0,0.3,0.2,0,0,0,0" N=""/><S T="14" X="-31" Y="273" L="1005" H="63" P="0,0,0.3,0.2,-90,0,0,0" N=""/><S T="14" X="1034" Y="296" L="1005" H="63" P="0,0,0.3,0.2,-90,0,0,0" N=""/><S T="14" X="495" Y="8" L="1015" H="63" P="0,0,0.3,0.2,-180,0,0,0" N=""/><S T="14" X="404" Y="113" L="78" H="26" P="0,0,0.3,0.2,0,0,0,0"/><S T="14" X="401" Y="235" L="117" H="57" P="0,0,0.3,0.2,0,0,0,0"/><S T="14" X="909" Y="209" L="85" H="10" P="0,0,0.3,0.2,0,0,0,0"/><S T="14" X="990" Y="127" L="62" H="170" P="0,0,0.3,0.2,0,0,0,0"/></S><D><DS X="399" Y="359"/></D><O><O X="706" Y="352" C="11" P="0,0"/></O><L/></Z></C>',
