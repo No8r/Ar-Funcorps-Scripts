@@ -1,3 +1,7 @@
+--MiceRace v1
+--By Noooooooorr#0000
+--22/10/2020
+
 local TFM = tfm.exec
 local GET = tfm.get
 local player = {}
